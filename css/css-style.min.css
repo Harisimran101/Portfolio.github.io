@@ -2374,8 +2374,12 @@ ul .t-ltr-dark {
     padding-left: 30px;
     padding-right: 30px;
     letter-spacing: 1px;
+    transition: 0.2s ease;
 }
 
+.hero-btn:hover {
+                transform: scale(1.15);
+}
 
 .overlay-work {
     position: absolute;
