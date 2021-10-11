@@ -1449,6 +1449,12 @@ p {
     .navbar-custom .navbar-nav .dropdown .dropdown-menu {
         margin-top: 12px !important;
     }
+
+    #client-reviews {
+                    position: relative;
+                    left: 50%;
+                    transform: translate(-30%);
+    }
 }
 @media (max-width: 1023px) {
     .navbar-custom .nav-social {
@@ -2396,10 +2402,4 @@ ul .t-ltr-dark {
 .gallery {
     position: relative;
 
-}
-
-.cta-full .container-fluid {
-                          position: relative;
-                          left: 50%;
-                          transform: translate(-35%);
 }
