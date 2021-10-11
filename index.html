@@ -9,50 +9,50 @@
         <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose">
         <meta content="Shreethemes" name="author">
         <!-- favicon -->
-        <link rel="shortcut icon" href="favicons/3487-images-favicon.ico">
+        <link rel="shortcut icon" href="favicons/4049-images-favicon.ico">
         <!-- Bootstrap -->
         <link href="css/css-bootstrap.min.css" rel="stylesheet" type="text/css">
         <!-- MK Lightbox -->
         <link href="css/css-mklb.css" rel="stylesheet" type="text/css">
         <!-- Icon -->
         <link href="css/css-materialdesignicons.min.css" rel="stylesheet" type="text/css">
+                  
         <!-- SLIDER -->
         <link rel="stylesheet" href="css/css-tiny-slider.css">    
         <!-- Custom Css -->
         <link href="css/css-style.min.css" rel="stylesheet" type="text/css" id="theme-opt">
         <link href="css/colors-default.css" rel="stylesheet" id="color-opt">
+        <!-- Poppins Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--AOS css-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/fancybox.css">
 
     </head>
 
-    <body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
+    <body id="my-scrollbar" data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
         <!-- Loader -->
-
-
         <div id="preloader">
-            <div class="preloader-wrapper">
-  
-                <div class="profile-container">
-                <div class="profile-logo"></div>
-                  </div>
-              </div>
+            <div id="status">
+                <div class="logo">
+                    <img src="images/images-logo.png" height="20" class="d-block mx-auto" alt="">
+                </div>
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
         </div>
         <!-- Loader -->
-
+        
         <!-- Navbar Start -->
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="images/portfolio-logo.png" height="36" alt="logo">
+                    <img src="images/images-logo.png" height="18" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span data-feather="menu" class="fea icon-md"></span>
@@ -70,22 +70,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#projects">Projects</a>
                         </li><!--end nav item-->
-
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">Blog</a>
+                        </li><!--end nav item-->
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
-                            </a>
+                          
                             <div class="dropdown-menu rounded m-0" aria-labelledby="navbarDropdown">
                                 <div class="container mx-0 mx-md-0">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <a class="dropdown-item" href="page-blog.html">Blog</a>
-                                            <a class="dropdown-item" href="page-blog-detail.html">Blog Detail</a>
-                                            <a class="dropdown-item" href="page-portfolio.html">Portfolio</a>
-                                            <a class="dropdown-item" href="page-portfolio-detail.html">Portfolio Detail</a>
+                           
                                         </div><!--end col-->
                                     </div><!--end row-->
                                 </div><!--end container-->
@@ -93,54 +90,80 @@
                         </li><!--end nav item-->
                     </ul>
 
-                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
+                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
+                        <li class="list-inline-item me-1"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
                     </ul>
                 </div> 
-		    </div><!--end container-->
+            </div><!--end container-->
 		</nav><!--end navbar-->
         <!-- Navbar End -->
 
         <!-- HOME START-->
-        <section class="bg-modern bg-light bg-animation-right" id="home">
+        <section class="bg-home bg-light clip-home" id="home">
             <div class="container">
-                <div class="row align-items-center position-relative" style="z-index: 1;">
-                    <div class="col-lg-7 col-md-7">
-                        <div class="title-heading mt-5">
-                            <h6 class="sub-title">Looking for a Designer !</h6>
-                            <h1 class="hero-text mb-3">I'm Haris imran</h1>
-                            <p class="para-desc text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                <div class="row mt-5 align-items-center">
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0 order-2 order-md-1">
+                        <div class="title-heading text-center text-md-start">
+                            <h1 class="heading mb-3">I Am <span id="typed" class="hero-text"></span></h1>
+                            <p class="text-muted h6 font-weight-normal">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
                             <div class="mt-4 pt-2">
-                                <a href="javascript:void(0)" class="btn btn-primary rounded-pill mb-2 me-2">Hire me</a>
-                                <a href="javascript:void(0)" class="btn btn-outline-primary rounded-pill mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+
+                                <a href="#projects" class="hero-btn btn btn-primary rounded-pill mt-1" data-tilt data-tilt-scale="1.2">Portfolio</a>
                             </div>
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="col-lg-5 col-md-5 order-1 order-md-2">
                         <div class="hero-img">
-                            <img loading="lazy" src="images/home-hero.png" class="img-fluid" alt="">
+
+                            <svg class="hero-image" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+                                <clipPath id="myshape">
+                                    <path fill="#8A3FFC" d="M46.8,-36.3C61,-19.4,73.3,0,69,14.5C64.7,28.9,43.8,38.3,24,46.5C4.2,54.8,-14.6,62.1,-31.9,57.2C-49.2,52.3,-65,35.4,-69.3,16C-73.6,-3.4,-66.3,-25.2,-52.8,-42C-39.4,-58.7,-19.7,-70.2,-1.7,-68.9C16.3,-67.5,32.5,-53.2,46.8,-36.3Z" transform="translate(100 100)" />
+                                </clipPath>
+                                <image id="cover-image" xlink:href="/images/Photo.jpg" clip-path="url(#myshape)" />  
+                            </svg>
+                      
+                        
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container--> 
-            <a href="#about" data-scroll-nav="1" class="mouse-icon d-none d-md-inline-block rounded-pill bg-transparent mouse-down">
+            <a href="#about" data-scroll-nav="1" class="mouse-icon rounded-pill bg-transparent mouse-down">
                 <span class="wheel position-relative d-block mover"></span>
             </a>
         </section><!--end section-->
         <!-- HOME END-->
-<div class="card-container-fluid pe-4 ps-4" data-aos="zoom-out">
-        <div class="card">
-            <div class="profile-img"></div>
-            <div class="card-body">
-              <p class="card-text ms-2 me-2 ps-4 pe-4">"I am Really good at Solving<br>Real Life Problems"</br></p>
-          <button class="btn">Portfolio</button>
-            </div>
-          </div>
-          </div>
+        
+        <!-- About Start -->
+        <section class="section pb-3" id="about">
+            <div class="container" >
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="about-hero">
+                            <img src="images/images-hero.png" class="img-fluid mx-auto d-block about-tween position-relative" alt="">
+                        </div>
+                    </div><!--end col-->
 
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title mb-0 ms-lg-5 ms-md-3">
+                            <h4 class="title text-primary mb-3">Cristino Murphy</h4>
+                            <h6 class="designation mb-3">I'm a Passionate <span class="text-primary">Web Designer</span></h6>
+                            <p class="text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <p class="text-muted">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <img src="images/images-sign.png" height="22" alt="">
+                            <div class="mt-4">
+                                <a href="#projects" class="btn btn-primary mouse-down">View Portfolio</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+         
+        
+            
         <!-- Services Start -->
         <section class="section bg-light" id="services">
             <div class="container">
@@ -157,7 +180,7 @@
                 </div><!--end row-->
 
                 <div class="row">                    
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000" >
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="airplay" class="fea icon-md"></i>
@@ -172,7 +195,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="aperture" class="fea icon-md"></i>
@@ -187,7 +210,7 @@
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="camera" class="fea icon-md"></i>
@@ -202,7 +225,7 @@
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="compass" class="fea icon-md"></i>
@@ -217,7 +240,7 @@
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="settings" class="fea icon-md"></i>
@@ -232,7 +255,7 @@
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2" data-tilt data-tilt-scale="1.1" data-tilt-speed="1000">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                         <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
                             <div class="icon text-primary">
                                 <i data-feather="watch" class="fea icon-md"></i>
@@ -251,9 +274,7 @@
         </section>
         <!-- Services End -->
 
-     
 
-            
         <!-- Skill & CTA START -->
         <section class="cta-full border-top">
             <div class="container-fluid">
@@ -279,7 +300,7 @@
                                         <li class="nav-item mt-4 pt-2">
                                             <a class="nav-link rounded active" id="pills-cloud-tab" data-bs-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false">
                                                 <div class="skill-container text-center pt-1 pb-1">
-                                                    <h6 class="title mb-0">UX Design</h6>
+                                                    <h6 class="title mb-0">Verge 3D</h6>
                                                 </div>
                                             </a><!--end nav link-->
                                         </li><!--end nav item-->
@@ -295,7 +316,7 @@
                                         <li class="nav-item mt-4 pt-2">
                                             <a class="nav-link rounded" id="pills-apps-tab" data-bs-toggle="pill" href="#pills-apps" role="tab" aria-controls="pills-apps" aria-selected="false">
                                                 <div class="skill-container text-center pt-1 pb-1">
-                                                    <h6 class="title mb-0">Web development</h6>
+                                                    <h6 class="title mb-0">Programming skills</h6>
                                                 </div>
                                             </a><!--end nav link-->
                                         </li><!--end nav item-->
@@ -305,54 +326,33 @@
                                 <div class="col-lg-9 col-md-8 col-12">
                                     <div class="tab-content ps-lg-4" id="pills-tabContent">
                                         <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel" aria-labelledby="pills-cloud-tab">
+                                            
                                             <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">HTML</h6>
+                                                <h6 class="font-weight-normal">Expertise</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:84%;">
-                                                        <div class="progress-value d-block text-dark h6">84%</div>
+                                                    <div class="progress-bar position-relative bg-primary" style="width:80%;">
+                                                        <div class="progress-value d-block text-dark h6">80%</div>
                                                     </div>
                                                 </div>
                                             </div><!--end process box-->
-                                            <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">CSS</h6>
-                                                <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:75%;">
-                                                        <div class="progress-value d-block text-dark h6">75%</div>
-                                                    </div>
-                                                </div>
-                                            </div><!--end process box-->
-                                            <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">JQuery</h6>
-                                                <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:79%;">
-                                                        <div class="progress-value d-block text-dark h6">79%</div>
-                                                    </div>
-                                                </div>
-                                            </div><!--end process box-->
+                                          
                                         </div><!--end teb pane-->
                                         
                                         <div class="tab-pane fade" id="pills-smart" role="tabpanel" aria-labelledby="pills-smart-tab">
                                             <div class="progress-box mt-4 pt-2">
                                                 <h6 class="font-weight-normal">English</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:84%;">
-                                                        <div class="progress-value d-block text-dark h6">84%</div>
+                                                    <div class="progress-bar position-relative bg-primary" style="width:95%;">
+                                                        <div class="progress-value d-block text-dark h6">95%</div>
                                                     </div>
                                                 </div>
                                             </div><!--end process box-->
+                                           
                                             <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">Spanish</h6>
+                                                <h6 class="font-weight-normal">Urdu</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:75%;">
-                                                        <div class="progress-value d-block text-dark h6">75%</div>
-                                                    </div>
-                                                </div>
-                                            </div><!--end process box-->
-                                            <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">German</h6>
-                                                <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:79%;">
-                                                        <div class="progress-value d-block text-dark h6">79%</div>
+                                                    <div class="progress-bar position-relative bg-primary" style="width:100%;">
+                                                        <div class="progress-value d-block text-dark h6">100%</div>
                                                     </div>
                                                 </div>
                                             </div><!--end process box-->
@@ -360,18 +360,18 @@
 
                                         <div class="tab-pane fade" id="pills-apps" role="tabpanel" aria-labelledby="pills-apps-tab">
                                             <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">Photoshop</h6>
+                                                <h6 class="font-weight-normal">HTML</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:84%;">
-                                                        <div class="progress-value d-block text-dark h6">84%</div>
+                                                    <div class="progress-bar position-relative bg-primary" style="width:95%;">
+                                                        <div class="progress-value d-block text-dark h6">95%</div>
                                                     </div>
                                                 </div>
                                             </div><!--end process box-->
                                             <div class="progress-box mt-4 pt-2">
-                                                <h6 class="font-weight-normal">Sketch</h6>
+                                                <h6 class="font-weight-normal">CSS</h6>
                                                 <div class="progress">
-                                                    <div class="progress-bar position-relative bg-primary" style="width:75%;">
-                                                        <div class="progress-value d-block text-dark h6">75%</div>
+                                                    <div class="progress-bar position-relative bg-primary" style="width:100%;">
+                                                        <div class="progress-value d-block text-dark h6">100%</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -402,7 +402,7 @@
                 </div><!--end row-->
             </div>    
             
-            <div class="container" data-aos="zoom-in">
+            <div class="container">
                 <div class="row mt-4">
                     <ul class="col portfolioFilter text-center mb-0" id="filter">
                         <li class="list-inline-item mt-2"><a href="javascript:void(0)" class="categories tab-active shadow active text-dark me-2 py-2 px-3 rounded" onclick="filterSelection('all')">All</a></li>
@@ -417,12 +417,9 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box branding designing">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                                <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-1.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-1.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+
+                                  <a data-fancybox="gallery-a" href="images/Fullscreen-product Preloader.jpg"><img class="item-container img-fluid mx-auto" src="images/Fullscreen-product Preloader.jpg" alt="1"></a>
+
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">Working Keyboard</a></h5>
@@ -434,12 +431,8 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box branding development">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                            <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-2.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-2.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+                                <a data-fancybox="gallery-a" href="images/4k screenshot in verge 3d.jpg"><img class="item-container img-fluid mx-auto" src="images/4k screenshot in verge 3d.jpg" alt="1"></a>
+
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">The Micro Headphones</a></h5>
@@ -451,12 +444,8 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box designing development">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                                <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-3.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-3.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+                                <a data-fancybox="gallery-a" href="images/Glassmorphism Preloader.jpg"><img class="item-container img-fluid mx-auto" src="images/Glassmorphism Preloader.jpg" alt="1"></a>
+    
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">The Coffee Cup</a></h5>
@@ -468,12 +457,8 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box photography">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                                <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-4.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-4.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+                                <a data-fancybox="gallery-a" href="images/Profile card design.jpg"><img class="item-container img-fluid mx-auto" src="images/Profile card design.jpg" alt="1"></a>
+                            
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">The Wooden Desk</a></h5>
@@ -485,12 +470,8 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box photography">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                                <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-5.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-5.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+                                <a data-fancybox="gallery-a" href="images/portfolio-5.jpg"><img class="item-container img-fluid mx-auto" src="images/portfolio-5.jpg" alt="1"></a>
+                                
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">Camera</a></h5>
@@ -502,12 +483,8 @@
                     <div class="col-lg-4 col-md-6 mt-4 pt-2 filter-box photography">
                         <div class="item-box portfolio-box rounded shadow bg-white overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
-                                <img loading="lazy" class="item-container img-fluid mx-auto" src="images/portfolio-6.jpg" alt="1">
-                                <div class="overlay-work">
-                                    <div class="work-content text-center">
-                                        <a href="javascript:void(0)" data-src="images/portfolio-6.jpg" data-gallery="myGal" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
-                                    </div>
-                                </div>
+                                <a data-fancybox="gallery-a" href="images/Preloaders pack thumbnail.jpg"><img class="item-container img-fluid mx-auto" src="images/Preloaders pack thumbnail.jpg" alt="1"></a>
+                               
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">Branded Laptop</a></h5>
@@ -521,10 +498,10 @@
                     <div class="col-lg-12 mt-4 pt-2">
                         <div class="text-center">
                             <a href="page-portfolio.html" class="btn btn-outline-primary">More works <i data-feather="refresh-cw" class="fea icon-sm"></i></a>
-                        </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
+        </div>
         </section><!--end section-->
         <!-- Projects End -->
 
@@ -732,7 +709,93 @@
         </section><!--end section-->  
         <!-- Testimonial End -->
 
-      
+        <!-- Blog Start -->
+        <section class="section bg-light pb-3" id="news">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <div class="titles">
+                                <h4 class="title title-line text-uppercase mb-4 pb-4">My Written &amp; Blogs</h4>
+                                <span></span>
+                            </div>
+                            <p class="text-muted mx-auto para-desc mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="blog-post rounded-pill shadow" data-tilt data-tilt-scale="1.06">
+                          <a href=""><img src="images/blog-image-1.jpg" class="img-fluid rounded-top" alt=""></a>
+                            <div class="content pt-4 pb-4 p-3">
+                                <ul class="list-unstyled d-flex justify-content-between post-meta">
+                                    <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
+                                    <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
+                                </ul>  
+                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">Our Home Entertainment has Evolved Significantly</a></h5> 
+                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
+                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
+                                </ul>
+                            </div><!--end content-->
+                        </div><!--end blog post-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="blog-post rounded-pill shadow" data-tilt data-tilt-scale="1.06">
+                            <a href=""><img src="images/blog-image-2.jpg" class="img-fluid rounded-top" alt=""></a>
+                            <div class="content pt-4 pb-4 p-3">
+                                <ul class="list-unstyled d-flex justify-content-between post-meta">
+                                    <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
+                                    <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
+                                </ul> 
+                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">These Are The Voyages of The Starship Enterprise</a></h5>
+                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
+                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
+                                </ul>
+                            </div><!--end content-->
+                        </div><!--end blog post-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="blog-post rounded-pill shadow" data-tilt data-tilt-scale="1.06">
+                            <a href=""><img src="images/blog-image-3.jpg" class="img-fluid rounded-top" alt=""></a>
+                            <div class="content pt-4 pb-4 p-3">
+                                <ul class="list-unstyled d-flex justify-content-between post-meta">
+                                    <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
+                                    <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
+                                </ul> 
+                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">Three Reasons Visibility Matters in Supply Chain</a></h5>
+                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
+                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
+                                </ul>
+                            </div><!--end content-->
+                        </div><!--end blog post-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container-fluid mt-100 mt-60">
+                <div class="rounded-pill py-5" style="background: url('images/hireme.jpg') center center;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <h4 class="text-light title-dark">I Am Available For Freelancer Projects.</h4>
+                                <p class="text-white-50 mx-auto mt-4 para-desc">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                                <div class="mt-4">
+                                    <a href="#contact" class="btn btn-primary mouse-down">Hire me <i data-feather="chevron-down" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end container-->
+                </div><!--end div-->
+            </div><!--end container fluid-->
+        </section><!--end section-->
+        <!-- Blog Start -->
+
         <!-- Contact Start -->
         <section class="section pb-0" id="contact">
             <div class="container">
@@ -843,7 +906,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <a href="#"><img src="images/portfolio-logo.png" height="24" alt=""></a>
+                        <a href="#"><img src="images/images-logo-light.png" height="24" alt=""></a>
                         <p class="para-desc mx-auto mt-5">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <ul class="list-unstyled mb-0 mt-4 social-icon">
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
@@ -869,7 +932,7 @@
             <i class="mdi mdi-chevron-up d-block"> </i> 
         </a>
         <!-- Back to top -->
-        
+
         <!-- Style switcher -->
         <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
             <div>
@@ -906,45 +969,56 @@
                 </ul>
             </div>
             <div class="bottom">
-               
+              
             </div>
         </div>
- 
         <!-- end Style switcher -->
 
         <!-- javascript -->
-        <script src="js/376-js-bootstrap.bundle.min.js"></script>
+        <script src="js/9532-js-bootstrap.bundle.min.js"></script>
         <!-- SLIDER -->
         <script src="js/tiny-slider.js%20"></script>
         <script src="js/tiny-slider-init.js%20"></script>
         <!-- MK Lightbox -->
-        <script src="js/7165-js-mklb.js"></script>
-        <script src="js/7940-js-filter.init.js"></script>
+        <script src="js/7494-js-mklb.js"></script>
+        <script src="js/2968-js-filter.init.js"></script>
         <!-- Contact -->
-        <script src="js/9784-js-contact.js"></script>
+        <script src="js/886-js-contact.js"></script>
         <!-- Counter -->
-        <script src="js/4497-js-counter.init.js"></script>
+        <script src="js/9454-js-counter.init.js"></script>
+        <!-- Typed -->
+        <script src="js/2788-js-typed.js"></script>
         <!-- Feather icon -->
-        <script src="js/5720-js-feather.min.js"></script>
+        <script src="js/7558-js-feather.min.js"></script>
         <!-- Switcher -->
-        <script src="js/2998-js-switcher.js"></script>
+        <script src="js/3159-js-switcher.js"></script>
         <!-- Main Js -->
-        <script src="js/3826-js-app.js"></script>
-        <!-- Tilt js Js -->
-        <script src="js/vanilla-tilt.min.js"></script>
-       
-  
+        <script src="js/5674-js-app.js"></script>
+        <!-- Tilt js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js" integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- AOS js -->
+        <script src="js/aos.js"></script>
+        <!-- Tilt js -->
+        <script src="js/vanilla-tilt.min.js"></script>    
+        <script src="/js/fancybox.umd.js"></script>
+<script>
+    AOS.init({
+             offset: 280,
+    })
+</script>
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-            offset: 300,
-            easing: 'cubic-bezier(0.76, 0, 0.24, 1)',
-          });
-
-
+ <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 150,
+                loop: true,
+                strings: [  
+                    'Haris', '^1000 HTML And CSS Dev', 'a Verge 3d Dev',
+                ],
+                smartBackspace: true
+            });
         </script>
-       
+
     </body>
 
 </html>

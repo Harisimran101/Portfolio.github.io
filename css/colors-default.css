@@ -22,7 +22,7 @@
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 .sidebar .widget .tagcloud > a:hover,
 .tns-nav button.tns-nav-active {
-    background-color: #3968f6 !important;
+    background-color: #0D54FC !important;
 }
 
 .text-primary,
@@ -52,7 +52,7 @@
 .sidebar .widget .catagories li a:hover,
 .sidebar .widget .post-recent .post-recent-content a:hover,
 .comment-area .media-list .media .media-body a:hover {
-    color: #0000b1 !important;
+    color: #512CF3 !important;
 }
 
 .btn-primary,
@@ -71,12 +71,12 @@
 .section-title .titles span:after,
 .owl-theme .owl-controls .owl-page span,
 .tns-nav button {
-    border-color: rgba(0,0,0,0.2) !important;
+    border-color: #0D54FC !important;
 }
 
 a.text-primary:hover, 
 a.text-primary:focus {
-    color: #0000b1 !important;
+    color: #0D54FC !important;
 }
 
 .btn-primary,
@@ -86,7 +86,7 @@ a.text-primary:focus {
 .btn-outline-primary.active, 
 .btn-outline-primary.focus, 
 .btn-outline-primary:not(:disabled):not(.disabled):active {
-    box-shadow: 0 3px 5px 0 rgba(75, 111, 229, 0.3);
+    box-shadow: 0 3px 5px 0 rgba(82, 41, 244, 0.3);
 }
 
 .btn-primary:hover, 
@@ -94,6 +94,6 @@ a.text-primary:focus {
 .btn-primary:active, 
 .btn-primary.active, 
 .btn-primary.focus {
-    background-color: #0000b1 !important;
-    border-color: #0000b1 !important;
+    background-color: #0D54FC !important;
+    border-color: #0D54FC !important;
 }
