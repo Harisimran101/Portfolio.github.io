@@ -2397,3 +2397,9 @@ ul .t-ltr-dark {
     position: relative;
 
 }
+
+.cta-full .container-fluid {
+                          position: relative;
+                          left: 50%;
+                          transform: translate(-35%);
+}
