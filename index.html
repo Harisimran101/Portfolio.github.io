@@ -809,21 +809,13 @@
                     </div><!--end col-->
                 </div><!--end row-->
 
-                <div class="row">
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="contact-detail text-center">
-                            <div class="icon">
-                                <i data-feather="phone" class="fea icon-md"></i>
-                            </div>
-                            <div class="content mt-4">
-                                <h5 class="title text-uppercase">Phone</h5>
-                                <p class="text-muted">Promising development turmoil inclusive education transformative community</p>
-                                <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
-                            </div>  
-                        </div>
-                    </div><!--end col-->
+                <div class="row justify-content-center">
+                 
+                    <div class="col-md-6 mt-4 pt-2">
+                        <lottie-player id="firstLottie" src="https://assets9.lottiefiles.com/packages/lf20_xxyvtiab.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                    </div>
                     
-                    <div class="col-md-4 mt-4 pt-2">
+                    <div class="col-md-4 mt-1 pt-2">
                         <div class="contact-detail text-center">
                             <div class="icon">
                                 <i data-feather="mail" class="fea icon-md"></i>
@@ -835,19 +827,7 @@
                             </div>  
                         </div>
                     </div><!--end col-->
-                    
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="contact-detail text-center">
-                            <div class="icon">
-                                <i data-feather="map-pin" class="fea icon-md"></i>
-                            </div>
-                            <div class="content mt-4">
-                                <h5 class="title text-uppercase">Location</h5>
-                                <p class="text-muted">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
-                                <a href="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" class="video-play-icon text-primary">View on Google map</a>
-                            </div>  
-                        </div>
-                    </div><!--end col-->
+                 
                 </div><!--end row-->
             </div><!--end container-->
         </section><!--end section-->
@@ -999,6 +979,9 @@
         <!-- Tilt js -->
         <script src="js/vanilla-tilt.min.js"></script>    
         <script src="/js/fancybox.umd.js"></script>
+        <script src="js/lottie-player.js"></script>
+        <script src="js/lottie-interactivity.min.js"></script>
+
 <script>
     AOS.init({
              offset: 280,
@@ -1015,6 +998,19 @@
                 ],
                 smartBackspace: true
             });
+
+            LottieInteractivity.create({
+    mode:"scroll",
+    player:'#firstLottie',
+    actions: [
+        {
+            visibility:[0,1],
+            type: "seek",
+            frames: [0, 600],
+        },
+    ]  
+});
+
         </script>
 
     </body>

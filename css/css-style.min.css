@@ -280,6 +280,9 @@ small {
     .display-4 {
         font-size: 36px !important;
     }
+    .mouse-icon {
+        margin-bottom: 0px;
+}
 }
 .btn-primary {
     background-color: #e54b4b !important;
@@ -1268,7 +1271,7 @@ p {
         padding: 60px 0;
     }
     .title-heading .heading {
-        font-size: 30px !important;
+        font-size: 33px !important;
     }
     .section-title .title {
         font-size: 24px;
@@ -2402,4 +2405,9 @@ ul .t-ltr-dark {
 .gallery {
     position: relative;
 
+}
+
+#lottie-animation {
+                  position: relative;
+                  margin-top: -150px;
 }
