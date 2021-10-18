@@ -2396,6 +2396,19 @@ ul .t-ltr-dark {
                 border-radius: 9px;
 }
 
+.hero-btn-ghost {
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+.hero-btn-ghost:hover {
+                transform: scale(1.15);
+                border-radius: 9px;
+}
+
 .overlay-work {
     position: absolute;
     top: 0;
