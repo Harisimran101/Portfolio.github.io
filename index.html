@@ -52,7 +52,7 @@
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="images/images-logo.png" height="18" alt="">
+                    <img src="images/portfolio-logo.png" height="38" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span data-feather="menu" class="fea icon-md"></span>
@@ -166,6 +166,7 @@
         
             
         <!-- Services Start -->
+
         <section class="section bg-light" id="services">
             <div class="container">
                 <div class="row justify-content-center">
@@ -176,6 +177,7 @@
                                 <span></span>
                             </div>
                             <p class="text-muted mx-auto para-desc mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                        
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -422,7 +424,10 @@
                             </div>
                             <div class="gallary-title py-4 text-center">
                                 <h5><a href="page-portfolio-detail.html" class="title text-dark">Fullscreen Preloader</a></h5>
-                                <span>Verge 3d</span>
+                       
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Info
+                                    </button>
                             </div>
                         </div>
                     </div>
@@ -718,15 +723,11 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <a href="#"><img src="images/images-logo-light.png" height="24" alt=""></a>
+                        <a href="#"><img src="images/portfolio-logo.png" height="55" alt=""></a>
                         <p class="para-desc mx-auto mt-5">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <ul class="list-unstyled mb-0 mt-4 social-icon">
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-vimeo"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
                         </ul>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -734,7 +735,7 @@
         </footer><!--end footer-->
         <footer class="footer footer-bar bg-dark">
             <div class="container text-foot text-center">
-                <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Cristino. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="shreethemes.html" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Design by myself with <i class="mdi mdi-heart text-danger"></i></p>
             </div><!--end container-->
         </footer><!--end footer-->
         <!-- Footer End -->
@@ -745,44 +746,26 @@
         </a>
         <!-- Back to top -->
 
-        <!-- Style switcher -->
-        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
-            <div>
-                <h6 class="title text-center">Select Your Color</h6>
-                <ul class="pattern">
-                    <li class="list-inline-item">
-                        <a class="color1" href="javascript:%20void(0);" onclick="setColor('default')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color2" href="javascript:%20void(0);" onclick="setColor('blue')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color3" href="javascript:%20void(0);" onclick="setColor('light-green')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color4" href="javascript:%20void(0);" onclick="setColor('yellow')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color5" href="javascript:%20void(0);" onclick="setColor('light-yellow')"></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="color6" href="javascript:%20void(0);" onclick="setColor('purple')"></a>
-                    </li>
-                </ul>
+       
+    
 
-                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
-                <ul class="text-center list-unstyled mb-0">
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2" onclick="setTheme('style-rtl')">RTL</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2" onclick="setTheme('style')">LTR</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2" onclick="setTheme('style-dark-rtl')">RTL</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2" onclick="setTheme('style-dark')">LTR</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
-                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
-                </ul>
-            </div>
-            <div class="bottom">
-              
-            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
         <!-- end Style switcher -->
 

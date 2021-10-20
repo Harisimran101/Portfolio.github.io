@@ -2404,7 +2404,7 @@ ul .t-ltr-dark {
     transition: 0.2s ease;
 }
 
-.hero-btn-ghost:hover {
+.hero-btn-ghost:hove# {
                 transform: scale(1.15);
                 border-radius: 9px;
 }
@@ -2435,6 +2435,7 @@ ul .t-ltr-dark {
              font-family: "Poppins", sans-serif;
              letter-spacing: 0.6px;
              position: relative;
+             top: -20px;
              left: 18%;
              width: 130px;
              height: 40px;
@@ -2442,7 +2443,10 @@ ul .t-ltr-dark {
              background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%);
              border: 0;
              border-radius: 50px;
+             margin-bottom: 40px;
              color: white;
+             left: 0%;
+       
 }
 
 #fiverr-btn::after {
@@ -2463,5 +2467,13 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
 
 #fiverr-btn:hover::after {
                     filter: blur(2px);
-                    opacity: 1;
+                    opacity: 1; 
+}
+
+#lottie-container {
+                  display: flex;
+                  flex-wrap: wrap;
+                  flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
 }
