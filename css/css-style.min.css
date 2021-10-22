@@ -1671,8 +1671,8 @@ p {
     clip-path: polygon(60% 0, 100% 0, 100% 100%, 35% 100%);
 }
 .clip-home {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
-    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 #sThemes-layout {
     background: url("../images/images-boxed.png") fixed repeat;
@@ -2428,7 +2428,7 @@ ul .t-ltr-dark {
 
 #firstLottie {
                   position: relative;
-                  margin-top: -150px;
+                  margin-top: -130px;
 }
 
 #fiverr-btn {
@@ -2474,6 +2474,11 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
                   display: flex;
                   flex-wrap: wrap;
                   flex-direction: column;
-                 justify-content: center;
-                 align-items: center;
+                  justify-content: center;
+                  align-items: center;
+}
+
+#portfolio-fiverr {
+                   width: 130px;
+                box-shadow: 0 2px 7px rgba(15, 51, 255, 0.18);
 }
