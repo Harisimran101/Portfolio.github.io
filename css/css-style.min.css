@@ -1262,8 +1262,14 @@ p {
 .mt-100 {
     margin-top: 100px;
 }
+.mt-20 {
+    margin-top: 20px;
+}
 .mb-60 {
     margin-bottom: 60px;
+}
+.mb-20 {
+       margin-bottom: 20px;
 }
 @media (max-width: 768px) {
     .mt-60 {
@@ -1798,7 +1804,6 @@ p {
 .service-wrapper {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: white;
 }
 .service-wrapper .content .title {
     -webkit-transition: all 0.2s ease;
@@ -1822,24 +1827,25 @@ p {
     position: absolute;
     right: 0;
     bottom: 0;
-    opacity: 0.02;
+    opacity: 0.6;
 }
-.service-wrapper .big-icon .icons {
+
+.service-wrapper .big-icon span {
     height: 50px;
     width: 50px;
+    font-size: 70px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 .service-wrapper:hover {
-    -webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
-    box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
+
     background: #fff;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
     border-color: transparent !important;
-    background: rgb(13,84,252);
-background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);
-   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
+    background: rgb(55,55,238);
+    background: linear-gradient(153deg, rgba(55,55,238,1) 10%, rgba(54,107,251,1) 100%);
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.35);
 }
 .service-wrapper:hover:after {
     width: 95%;
@@ -1850,12 +1856,12 @@ background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%
 }
 .service-wrapper:hover .big-icon {
     z-index: -1;
-    opacity: 0.04;
+    opacity: 1;
 }
-.service-wrapper:hover .big-icon .icons {
+.service-wrapper:hover .big-icon span {
     height: 200px;
     width: 200px;
-    color: #e54b4b;
+    font-size: 90px;
 }
 .main-icon {
     border: 2px solid #ced4da;
@@ -2485,11 +2491,16 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
 #portfolio-fiverr {
                    width: 140px;
                 box-shadow: 0 2px 7px rgba(15, 51, 255, 0.18);
+                transition: all 0.25s ease;
+}
+
+#portfolio-fiverr:hover {
+                        transform: scale(1.2);
 }
 
 .main-gradient {
-    background: rgb(13,84,252);
-    background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);      
+    background: rgb(55,55,238);
+    background: linear-gradient(153deg, rgba(55,55,238,1) 10%, rgba(54,107,251,1) 100%);     
 }
 
 .title-2 {
@@ -2502,4 +2513,12 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
 
 .dark {
       color: #0C0C0C;
+}
+
+.light-blue {
+            color: #6688F9;
+}
+
+.best-round {
+            border-radius: 13px;
 }
