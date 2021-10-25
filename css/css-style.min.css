@@ -1839,7 +1839,7 @@ p {
     border-color: transparent !important;
     background: rgb(13,84,252);
 background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);
-   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
 }
 .service-wrapper:hover:after {
     width: 95%;
@@ -2492,10 +2492,14 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
     background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);      
 }
 
-.white {
-       color: white;
+.title-2 {
+          color: #F8F8F8;
 }
 
-.red {
-      color: red;
+.text-muted-2 {
+               color: #CCCCCC;
+}
+
+.dark {
+      color: #0C0C0C;
 }
