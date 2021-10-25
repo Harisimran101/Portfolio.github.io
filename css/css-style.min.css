@@ -1796,8 +1796,9 @@ p {
     color: #e54b4b;
 }
 .service-wrapper {
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: white;
 }
 .service-wrapper .content .title {
     -webkit-transition: all 0.2s ease;
@@ -1836,6 +1837,9 @@ p {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     border-color: transparent !important;
+    background: rgb(13,84,252);
+background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 .service-wrapper:hover:after {
     width: 95%;
@@ -2392,7 +2396,7 @@ ul .t-ltr-dark {
 }
 
 .hero-btn:hover {
-                transform: scale(1.15);
+                transform: scale(1.19);
                 border-radius: 9px;
 }
 
@@ -2404,8 +2408,8 @@ ul .t-ltr-dark {
     transition: 0.2s ease;
 }
 
-.hero-btn-ghost:hove# {
-                transform: scale(1.15);
+.hero-btn-ghost:hover {
+                transform: scale(1.2);
                 border-radius: 9px;
 }
 
@@ -2479,6 +2483,19 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
 }
 
 #portfolio-fiverr {
-                   width: 130px;
+                   width: 140px;
                 box-shadow: 0 2px 7px rgba(15, 51, 255, 0.18);
+}
+
+.main-gradient {
+    background: rgb(13,84,252);
+    background: linear-gradient(307deg, rgba(13,84,252,1) 0%, rgba(50,50,214,1) 100%);      
+}
+
+.white {
+       color: white;
+}
+
+.red {
+      color: red;
 }
