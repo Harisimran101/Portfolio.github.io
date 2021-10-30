@@ -1744,8 +1744,9 @@ p {
 
     .hero-image {
         position: relative;
+        
         margin-bottom: -90px;
-        margin-top: -150px;
+        margin-top: -110px;
     }
 
     @keyframes hero-image {
@@ -2600,4 +2601,11 @@ letter-spacing: 0.5px;
 border-radius: 80px;
 width: 130px;
 height: 42px;
+}
+
+@media (max-width: 500px) {
+             
+    .card-text {
+        font-size: 18px;
+}
 }
