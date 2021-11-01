@@ -1852,7 +1852,7 @@ p {
 .service-wrapper:hover .big-icon span {
     height: 200px;
     width: 200px;
-    font-size: 100px;
+    font-size: 86px;
 }
 .main-icon {
     border: 2px solid #ced4da;
@@ -2608,4 +2608,10 @@ height: 42px;
     .card-text {
         font-size: 19px;
 }
+     .profile-img {
+                   width: 65px;
+                   height: 65px;
+                   left: 20px;
+     }
+ 
 }
