@@ -1566,7 +1566,7 @@ p {
 
 .hero-image {
     position: absolute;
-    animation: hero-image 5s ease-in-out infinite;
+    animation: hero-image 3s ease-in-out infinite;
 }
 
 @keyframes hero-image {
@@ -2621,4 +2621,16 @@ height: 42px;
                    left: 20px;
      }
  
+}
+
+.gradient-underline {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-size: 0% 3px; 
+    background-repeat: no-repeat;   
+    background-position: left bottom;
+    transition: all 0.45s ease;
+}
+
+.gradient-underline:hover {
+            background-size: 100% 3px;
 }
