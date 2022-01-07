@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "smooth-scrollbar": "^8.7.2"
+  },
+  "name": "portfolio.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harisimran101/Portfolio.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harisimran101/Portfolio.github.io/issues"
+  },
+  "homepage": "https://github.com/Harisimran101/Portfolio.github.io#readme",
+  "description": ""
+}
