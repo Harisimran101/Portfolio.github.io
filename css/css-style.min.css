@@ -2036,6 +2036,18 @@ p {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+.portfolio-accent {
+     opacity: 0.06;
+     position: absolute;
+     top: 0px;
+     left: 0;
+     font-size: 150px;
+     letter-spacing: 5px;
+     font-weight: 700;
+     pointer-events: none;
+}
+
 .portfolio-box .portfolio-box-img .overlay-work .work-content .work-icon .image-icon {
     stroke-width: 2 !important;
 }
