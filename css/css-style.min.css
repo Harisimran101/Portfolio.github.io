@@ -2038,14 +2038,54 @@ p {
 }
 
 .portfolio-accent {
-     opacity: 0.06;
+     opacity: 0.03;
      position: absolute;
      top: 0px;
-     left: 0;
+     left: 50%;
+     transform: translatex(-50%);
      font-size: 150px;
      letter-spacing: 5px;
      font-weight: 700;
      pointer-events: none;
+}
+
+.services-accent {
+    opacity: 0.03;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.blogs-accent {
+    opacity: 0.03;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 150px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.feedback-accent {
+    opacity: 0.03;
+    position: absolute;
+    top: 0;
+    left: 4%;
+   
+    font-size: 150px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .portfolio-box .portfolio-box-img .overlay-work .work-content .work-icon .image-icon {
@@ -2620,6 +2660,11 @@ letter-spacing: 0.5px;
 border-radius: 80px;
 width: 130px;
 height: 42px;
+}
+
+.z-index-50 {
+    position: relative;
+     z-index: 50;
 }
 
 @media (max-width: 500px) {
