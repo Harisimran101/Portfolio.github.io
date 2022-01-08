@@ -912,7 +912,7 @@ button:not(:disabled) {
 }
 
 .portfolio-accent {
-    opacity: 0.03;
+    opacity: 0.04;
     position: absolute;
     top: 0px;
     left: 50%;
@@ -924,7 +924,7 @@ button:not(:disabled) {
 }
 
 .services-accent {
-   opacity: 0.03;
+   opacity: 0.04;
    position: absolute;
    top: 0;
    left: 50%;
@@ -937,24 +937,11 @@ button:not(:disabled) {
 }
 
 .blogs-accent {
-   opacity: 0.03;
+   opacity: 0.04;
    position: absolute;
    top: 0;
    left: 50%;
    transform: translatex(-50%);
-   font-size: 150px;
-   letter-spacing: 2px;
-   font-weight: 700;
-   z-index: 1;
-   pointer-events: none;
-}
-
-.feedback-accent {
-   opacity: 0.03;
-   position: absolute;
-   top: 0;
-   left: 4%;
-  
    font-size: 150px;
    letter-spacing: 2px;
    font-weight: 700;
@@ -1212,7 +1199,7 @@ a {
     text-decoration: none !important;
 }
 p {
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
     line-height: 1.8;
 }
 .section {
@@ -1514,16 +1501,23 @@ p {
     -webkit-box-shadow: -3px 1px 3px 0px rgba(0, 0, 0, 0.06) !important;
     box-shadow: -3px 1px 3px 0px rgba(0, 0, 0, 0.06) !important;
 }
+
+.cta-full {
+       display: flex;
+       align-items: center;
+
+}
+
 @media (min-width: 992px) {
     .navbar-custom .navbar-nav .dropdown .dropdown-menu {
         margin-top: 12px !important;
     }
-
+/* 
     #client-reviews {
                     position: relative;
                     left: 50%;
                     transform: translate(-30%);
-    }
+    } */
 
     
 }
@@ -2510,6 +2504,7 @@ ul .t-ltr-dark {
              color: white;
              left: 0%;
              transition: 0.25s ease;
+             cursor: pointer;
 }
 
 #fiverr-btn::after {
@@ -2526,6 +2521,7 @@ background: linear-gradient(313deg, rgba(13,84,252,1) 0%, rgba(81,44,243,1) 100%
                     border-radius: inherit;
                     filter: blur(6px);
                     transition: 0.3s ease;
+                        
 }
 
 #fiverr-btn:hover {
@@ -2615,12 +2611,12 @@ border: 0;
 border-radius: 12px;
 margin-top: 80px;
 margin-bottom: 80px;
-box-shadow: 0 3px 5px rgba(23, 16, 53, 0.4);
+box-shadow: 0 3px 9px rgba(67, 50, 139, 0.25);
 transition: all 0.3s ease;
 }
 
 .card:hover {
-box-shadow: 0 3px 35px rgba(23, 16, 53, 0.25);
+    box-shadow: 0 3px 18px rgba(67, 50, 139, 0.4);
 }
 
 .profile-img {
