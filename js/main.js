@@ -2,6 +2,23 @@ AOS.init({
     offset: 280,
 });
 
+var lazyLoadInstance = new LazyLoad({
+    // Your custom settings go here
+  });
+
+  window.lazyLoadOptions = {
+    // Your custom settings go here
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+
 var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
     typeSpeed: 130,
